@@ -1,0 +1,282 @@
+[2017-11-12 22:06:00 +0900] [6330] [DEBUG] Current configuration:
+  config: None
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 16
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /Users/elastic/Projects/git_public_repo/locustio_flask
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ./gunicorn.log
+  loglevel: DEBUG
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: flaskr:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1015661e0>
+  on_reload: <function OnReload.on_reload at 0x101566378>
+  when_ready: <function WhenReady.when_ready at 0x101566510>
+  pre_fork: <function Prefork.pre_fork at 0x1015666a8>
+  post_fork: <function Postfork.post_fork at 0x101566840>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1015669d8>
+  worker_int: <function WorkerInt.worker_int at 0x101566b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x101566d08>
+  pre_exec: <function PreExec.pre_exec at 0x101566ea0>
+  pre_request: <function PreRequest.pre_request at 0x10156d0d0>
+  post_request: <function PostRequest.post_request at 0x10156d1e0>
+  child_exit: <function ChildExit.child_exit at 0x10156d378>
+  worker_exit: <function WorkerExit.worker_exit at 0x10156d510>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x10156d6a8>
+  on_exit: <function OnExit.on_exit at 0x10156d840>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2017-11-12 22:06:00 +0900] [6330] [INFO] Starting gunicorn 19.7.1
+[2017-11-12 22:06:00 +0900] [6330] [DEBUG] Arbiter booted
+[2017-11-12 22:06:00 +0900] [6330] [INFO] Listening at: http://127.0.0.1:8000 (6330)
+[2017-11-12 22:06:00 +0900] [6330] [INFO] Using worker: sync
+[2017-11-12 22:06:00 +0900] [6333] [INFO] Booting worker with pid: 6333
+[2017-11-12 22:06:00 +0900] [6334] [INFO] Booting worker with pid: 6334
+[2017-11-12 22:06:00 +0900] [6335] [INFO] Booting worker with pid: 6335
+[2017-11-12 22:06:00 +0900] [6333] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6333] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6336] [INFO] Booting worker with pid: 6336
+[2017-11-12 22:06:00 +0900] [6337] [INFO] Booting worker with pid: 6337
+[2017-11-12 22:06:00 +0900] [6334] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6334] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6335] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6335] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6336] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6336] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6337] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6337] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6338] [INFO] Booting worker with pid: 6338
+[2017-11-12 22:06:00 +0900] [6339] [INFO] Booting worker with pid: 6339
+[2017-11-12 22:06:00 +0900] [6338] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6338] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6339] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6339] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6340] [INFO] Booting worker with pid: 6340
+[2017-11-12 22:06:00 +0900] [6341] [INFO] Booting worker with pid: 6341
+[2017-11-12 22:06:00 +0900] [6340] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6340] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6341] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6341] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6343] [INFO] Booting worker with pid: 6343
+[2017-11-12 22:06:00 +0900] [6344] [INFO] Booting worker with pid: 6344
+[2017-11-12 22:06:00 +0900] [6345] [INFO] Booting worker with pid: 6345
+[2017-11-12 22:06:00 +0900] [6343] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6343] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6346] [INFO] Booting worker with pid: 6346
+[2017-11-12 22:06:00 +0900] [6344] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6344] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6345] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6345] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6346] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6346] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6347] [INFO] Booting worker with pid: 6347
+[2017-11-12 22:06:00 +0900] [6348] [INFO] Booting worker with pid: 6348
+[2017-11-12 22:06:00 +0900] [6347] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6347] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6348] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6348] [DEBUG] debug message
+[2017-11-12 22:06:00 +0900] [6349] [INFO] Booting worker with pid: 6349
+[2017-11-12 22:06:00 +0900] [6330] [DEBUG] 16 workers
+[2017-11-12 22:06:00 +0900] [6349] [INFO] my info
+[2017-11-12 22:06:00 +0900] [6349] [DEBUG] debug message
+[2017-11-12 22:06:06 +0900] [6346] [DEBUG] GET /
+[2017-11-12 22:06:07 +0900] [6347] [DEBUG] GET /
+[2017-11-12 22:06:07 +0900] [6346] [DEBUG] GET /
+[2017-11-12 22:06:34 +0900] [6338] [DEBUG] Closing connection. 
+[2017-11-12 22:06:34 +0900] [6345] [DEBUG] GET /
+[2017-11-12 22:06:34 +0900] [6340] [DEBUG] GET /
+[2017-11-12 22:06:34 +0900] [6349] [DEBUG] GET /
+[2017-11-12 22:06:34 +0900] [6340] [DEBUG] GET /
+[2017-11-12 22:06:35 +0900] [6334] [DEBUG] GET /
+[2017-11-12 22:07:05 +0900] [6330] [CRITICAL] WORKER TIMEOUT (pid:6337)
+[2017-11-12 22:07:05 +0900] [6337] [INFO] Worker exiting (pid: 6337)
+[2017-11-12 22:07:05 +0900] [7134] [INFO] Booting worker with pid: 7134
+[2017-11-12 22:07:12 +0900] [6330] [INFO] Handling signal: int
+[2017-11-12 22:07:12 +0900] [6338] [INFO] Worker exiting (pid: 6338)
+[2017-11-12 22:07:12 +0900] [6348] [INFO] Worker exiting (pid: 6348)
+[2017-11-12 22:07:12 +0900] [6349] [INFO] Worker exiting (pid: 6349)
+[2017-11-12 22:07:12 +0900] [7134] [INFO] Worker exiting (pid: 7134)
+[2017-11-12 22:07:12 +0900] [6345] [INFO] Worker exiting (pid: 6345)
+[2017-11-12 22:07:12 +0900] [6334] [INFO] Worker exiting (pid: 6334)
+[2017-11-12 22:07:12 +0900] [6341] [INFO] Worker exiting (pid: 6341)
+[2017-11-12 22:07:12 +0900] [6347] [INFO] Worker exiting (pid: 6347)
+[2017-11-12 22:07:12 +0900] [6335] [INFO] Worker exiting (pid: 6335)
+[2017-11-12 22:07:12 +0900] [6336] [INFO] Worker exiting (pid: 6336)
+[2017-11-12 22:07:12 +0900] [6339] [INFO] Worker exiting (pid: 6339)
+[2017-11-12 22:07:12 +0900] [6333] [INFO] Worker exiting (pid: 6333)
+[2017-11-12 22:07:12 +0900] [6344] [INFO] Worker exiting (pid: 6344)
+[2017-11-12 22:07:12 +0900] [6343] [INFO] Worker exiting (pid: 6343)
+[2017-11-12 22:07:12 +0900] [6346] [INFO] Worker exiting (pid: 6346)
+[2017-11-12 22:07:12 +0900] [6340] [INFO] Worker exiting (pid: 6340)
+[2017-11-12 22:07:13 +0900] [6330] [INFO] Shutting down: Master
+[2017-11-12 22:07:24 +0900] [7501] [DEBUG] Current configuration:
+  config: None
+  bind: ['127.0.0.1:8000']
+  backlog: 2048
+  workers: 16
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /Users/elastic/Projects/git_public_repo/locustio_flask
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 501
+  group: 20
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ./gunicorn.log
+  loglevel: DEBUG
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: unix:///var/run/syslog
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: flaskr:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x1109b81e0>
+  on_reload: <function OnReload.on_reload at 0x1109b8378>
+  when_ready: <function WhenReady.when_ready at 0x1109b8510>
+  pre_fork: <function Prefork.pre_fork at 0x1109b86a8>
+  post_fork: <function Postfork.post_fork at 0x1109b8840>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x1109b89d8>
+  worker_int: <function WorkerInt.worker_int at 0x1109b8b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x1109b8d08>
+  pre_exec: <function PreExec.pre_exec at 0x1109b8ea0>
+  pre_request: <function PreRequest.pre_request at 0x1109bf0d0>
+  post_request: <function PostRequest.post_request at 0x1109bf1e0>
+  child_exit: <function ChildExit.child_exit at 0x1109bf378>
+  worker_exit: <function WorkerExit.worker_exit at 0x1109bf510>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x1109bf6a8>
+  on_exit: <function OnExit.on_exit at 0x1109bf840>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2017-11-12 22:07:24 +0900] [7501] [INFO] Starting gunicorn 19.7.1
+[2017-11-12 22:07:24 +0900] [7501] [DEBUG] Arbiter booted
+[2017-11-12 22:07:24 +0900] [7501] [INFO] Listening at: http://127.0.0.1:8000 (7501)
+[2017-11-12 22:07:24 +0900] [7501] [INFO] Using worker: sync
+[2017-11-12 22:07:24 +0900] [7504] [INFO] Booting worker with pid: 7504
+[2017-11-12 22:07:24 +0900] [7505] [INFO] Booting worker with pid: 7505
+[2017-11-12 22:07:24 +0900] [7506] [INFO] Booting worker with pid: 7506
+[2017-11-12 22:07:24 +0900] [7507] [INFO] Booting worker with pid: 7507
+[2017-11-12 22:07:24 +0900] [7509] [INFO] Booting worker with pid: 7509
+[2017-11-12 22:07:24 +0900] [7510] [INFO] Booting worker with pid: 7510
+[2017-11-12 22:07:24 +0900] [7512] [INFO] Booting worker with pid: 7512
+[2017-11-12 22:07:24 +0900] [7513] [INFO] Booting worker with pid: 7513
+[2017-11-12 22:07:24 +0900] [7514] [INFO] Booting worker with pid: 7514
+[2017-11-12 22:07:24 +0900] [7515] [INFO] Booting worker with pid: 7515
+[2017-11-12 22:07:24 +0900] [7516] [INFO] Booting worker with pid: 7516
+[2017-11-12 22:07:24 +0900] [7517] [INFO] Booting worker with pid: 7517
+[2017-11-12 22:07:24 +0900] [7518] [INFO] Booting worker with pid: 7518
+[2017-11-12 22:07:24 +0900] [7519] [INFO] Booting worker with pid: 7519
+[2017-11-12 22:07:24 +0900] [7520] [INFO] Booting worker with pid: 7520
+[2017-11-12 22:07:25 +0900] [7521] [INFO] Booting worker with pid: 7521
+[2017-11-12 22:07:25 +0900] [7501] [DEBUG] 16 workers
+[2017-11-12 22:07:26 +0900] [7517] [DEBUG] GET /
+[2017-11-12 22:07:27 +0900] [7518] [DEBUG] GET /
+[2017-11-12 22:07:27 +0900] [7505] [DEBUG] GET /
+[2017-11-12 22:07:38 +0900] [7504] [DEBUG] Closing connection. 
+[2017-11-12 22:07:40 +0900] [7501] [INFO] Handling signal: int
+[2017-11-12 22:07:40 +0900] [7512] [INFO] Worker exiting (pid: 7512)
+[2017-11-12 22:07:40 +0900] [7504] [INFO] Worker exiting (pid: 7504)
+[2017-11-12 22:07:40 +0900] [7505] [INFO] Worker exiting (pid: 7505)
+[2017-11-12 22:07:40 +0900] [7514] [INFO] Worker exiting (pid: 7514)
+[2017-11-12 22:07:40 +0900] [7515] [INFO] Worker exiting (pid: 7515)
+[2017-11-12 22:07:40 +0900] [7516] [INFO] Worker exiting (pid: 7516)
+[2017-11-12 22:07:40 +0900] [7518] [INFO] Worker exiting (pid: 7518)
+[2017-11-12 22:07:40 +0900] [7517] [INFO] Worker exiting (pid: 7517)
+[2017-11-12 22:07:40 +0900] [7519] [INFO] Worker exiting (pid: 7519)
+[2017-11-12 22:07:40 +0900] [7520] [INFO] Worker exiting (pid: 7520)
+[2017-11-12 22:07:40 +0900] [7521] [INFO] Worker exiting (pid: 7521)
+[2017-11-12 22:07:40 +0900] [7507] [INFO] Worker exiting (pid: 7507)
+[2017-11-12 22:07:40 +0900] [7509] [INFO] Worker exiting (pid: 7509)
+[2017-11-12 22:07:40 +0900] [7506] [INFO] Worker exiting (pid: 7506)
+[2017-11-12 22:07:40 +0900] [7513] [INFO] Worker exiting (pid: 7513)
+[2017-11-12 22:07:40 +0900] [7510] [INFO] Worker exiting (pid: 7510)
+[2017-11-12 22:07:40 +0900] [7501] [INFO] Shutting down: Master
