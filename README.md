@@ -5,7 +5,7 @@ let's use load testing tool!!!
   <img src="./.img/locust.png" width="350"/>
   <img src="./.img/flask.png" width="350"/>
   <img src="./.img/gunicorn.png" width="350"/>
-  <img src="./.img/python3.png" width="350"/>
+  <img src="./.img/python3.png" width="50"/>
 </p>
 
 
