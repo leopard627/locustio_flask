@@ -2,6 +2,8 @@ import logging
 from flask import Flask
 app = Flask(__name__)
 
+app.DEBUG=False
+
 LOGGER = logging.getLogger('gunicorn.error')
 # LOGGER.info('my info')
 # LOGGER.debug('debug message')
