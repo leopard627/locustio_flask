@@ -9,7 +9,10 @@ let's use load testing tool!!!
 </p>
 
 
-
+# reference 
+locust: https://locust.io/
+flask: http://flask.pocoo.org/
+gunirocn: http://gunicorn.org/
 
 # flask run serer with gunicorn 
 ```
