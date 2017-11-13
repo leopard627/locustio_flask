@@ -1,18 +1,18 @@
 # locustio_flask
 let's use load testing tool!!!
 
+locust: https://locust.io/
+
+flask: http://flask.pocoo.org/
+
+gunirocn: http://gunicorn.org/
+
 <p align="left">
   <img src="./.img/locust.png" width="350"/>
   <img src="./.img/flask.png" width="320"/>
   <img src="./.img/gunicorn.png" width="350"/>
   <img src="./.img/python3.png" width="150"/>
 </p>
-
-
-# reference 
-locust: https://locust.io/
-flask: http://flask.pocoo.org/
-gunirocn: http://gunicorn.org/
 
 # flask run serer with gunicorn 
 ```
